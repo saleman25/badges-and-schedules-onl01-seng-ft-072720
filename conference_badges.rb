@@ -19,4 +19,11 @@ def assign_rooms(attendees)
  return new_array
 end
 
-def printer 
+def printer(attendees)
+  batch_badge_creator(attendees).each do |person|
+    puts person
+  end
+  assign_rooms(speakers).each do |room|
+    puts room
+  end
+end
