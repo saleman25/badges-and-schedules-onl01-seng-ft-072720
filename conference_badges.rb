@@ -10,10 +10,13 @@ def batch_badge_creator(array)
   badge_array
 end
 
-def assign_rooms
+def assign_rooms(attendees)
   counter = 0
+  new_array= []
   "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1 
+end
+new_array
 end
 
 def printer
