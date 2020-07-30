@@ -19,5 +19,3 @@ end
  return new_array
 end
 
-def printer
-end
