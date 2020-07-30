@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   attendees.each_with_index [attendees, i]
   new_array.push ("Hello, #{attendees}! You'll be assigned to room #{i = i +1}!")
 end
-new_array
+ return new_array
 end
 
 def printer
