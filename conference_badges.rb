@@ -13,6 +13,7 @@ end
 def assign_rooms(attendees)
   counter = 0
   new_array= []
+  attendees.each_with_index [attendees, i]
   "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1 
 end
